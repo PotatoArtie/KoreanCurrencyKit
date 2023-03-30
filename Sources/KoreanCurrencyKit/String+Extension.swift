@@ -7,35 +7,45 @@
 import Foundation
 
 extension String {
-    
+    /**
+            숫자표기 ex)1,234,567
+     */
     public var decimal: String {
         let numberFormatter = NumberFormatter()
         numberFormatter.numberStyle = NumberFormatter.Style.decimal
         numberFormatter.locale = Locale(identifier: "ko_KR")
         return (numberFormatter.string(from: NSNumber(value: Double(self) ?? 0.0)) ?? "")
     }
-    
+    /**
+            한글표기 ex)백이십삼만 사천오백육십칠
+     */
     public var spellOut: String {
         let numberFormatter = NumberFormatter()
         numberFormatter.numberStyle = NumberFormatter.Style.spellOut
         numberFormatter.locale = Locale(identifier: "ko_KR")
         return (numberFormatter.string(from: NSNumber(value: Double(self) ?? 0.0)) ?? "")
     }
-    
+    /**
+            원호표기 ex)₩1,234,567
+     */
     public var currency: String {
         let numberFormatter = NumberFormatter()
         numberFormatter.numberStyle = NumberFormatter.Style.currency
         numberFormatter.locale = Locale(identifier: "ko_KR")
         return (numberFormatter.string(from: NSNumber(value: Double(self) ?? 0.0)) ?? "")
     }
-
+    /**
+            서수표기 ex)1,234,567번째
+     */
     public var ordinal: String {
         let numberFormatter = NumberFormatter()
         numberFormatter.numberStyle = NumberFormatter.Style.ordinal
         numberFormatter.locale = Locale(identifier: "ko_KR")
         return (numberFormatter.string(from: NSNumber(value: Double(self) ?? 0.0)) ?? "")
     }
-    
+    /**
+            퍼센트표기 ex)123,456,700%
+     */
     public var percent: String {
         let numberFormatter = NumberFormatter()
         numberFormatter.numberStyle = NumberFormatter.Style.percent
@@ -61,7 +71,9 @@ extension String {
             self.rawValue
         }
     }
-
+    /**
+            숫자+한글표기 ex)123만 4,567원
+     */
     public var toKorean: String {
         let numberFormater = NumberFormatter()
         numberFormater.locale = Locale(identifier: "ko_KR")
