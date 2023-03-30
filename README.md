@@ -1,4 +1,5 @@
-<img width="800" alt="스크린샷 2023-03-30 오후 4 56 19" src="https://user-images.githubusercontent.com/98959780/228769114-10444a18-377d-47a1-bbb3-4ecb6d080a73.png">
+
+<img width="698" alt="logo" src="https://user-images.githubusercontent.com/98959780/228770091-87679611-0246-40fe-a351-b80bcd0a7339.png">
 
 # KoreanCurrencyKit
 
