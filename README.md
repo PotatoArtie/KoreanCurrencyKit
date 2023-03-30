@@ -75,6 +75,9 @@
     12,345,678,000%
 ```
 
+### Quick Help
+
+![quickhelp](https://user-images.githubusercontent.com/98959780/228849192-ba136303-fd4c-4916-b253-c6c1cb115428.gif)
 
 ## Requirement
 
