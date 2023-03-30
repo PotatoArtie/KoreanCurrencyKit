@@ -4,8 +4,8 @@
 # KoreanCurrencyKit
 
 [![SwiftPM](https://img.shields.io/badge/SPM-supported-DE5C43.svg?style=flat)](https://swift.org/package-manager/)
-[![CodeCoverage](https://img.shields.io/static/v1?label=CodeCoverage&message=90.5&color=green)]
-[![Platform](https://img.shields.io/static/v1?label=platform&message=iOS&color=lightgrey)]
+[CodeCoverage](https://img.shields.io/static/v1?label=CodeCoverage&message=90.5&color=green)
+[Platform](https://img.shields.io/static/v1?label=platform&message=iOS&color=lightgrey)
 
 
 
