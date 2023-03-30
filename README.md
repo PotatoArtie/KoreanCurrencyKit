@@ -85,10 +85,10 @@ Mac Catalyst 13.0+/tvOS 13.0+/watchOS 6.0+
 
 File > Swift Packages > Add Package Dependency
 Add https://github.com/PotatoArtie/KoreanCurrencyKit.git
-Select "Up to Next Major" with 0.0.2
+Select "Up to Next Major" with 0.0.3
 
 ``` swift 
-  .package(url: "https://github.com/PotatoArtie/KoreanCurrencyKit.git", .upToNextMajor(from: "0.0.2"))
+  .package(url: "https://github.com/PotatoArtie/KoreanCurrencyKit.git", .upToNextMajor(from: "0.0.3"))
 ```
 
 ## Coverage
