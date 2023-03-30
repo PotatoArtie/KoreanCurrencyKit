@@ -71,5 +71,24 @@ final class KoreanCurrencyKitTests: XCTestCase {
         
     }
     
+    func test_문자열에서_decimal스타일로반환되는지() throws {
+        XCTAssertEqual("1234567891234567".decimal,"1,234,567,891,234,567")
+    }
+    
+    func test_문자열에서_spellOut스타일로반환되는지() throws {
+        XCTAssertEqual("1234567891234567".spellOut,"천이백삼십사조 오천육백칠십팔억 구천백이십삼만 사천오백육십칠")
+    }
+    
+    func test_문자열에서_currency스타일로반환되는지() throws {
+        XCTAssertEqual("1234567891234567".currency,"₩1,234,567,891,234,567")
+    }
+    
+    func test_문자열에서_ordinal스타일로반환되는지() throws {
+        XCTAssertEqual("1234567891234567".ordinal,"1,234,567,891,234,567번째")
+    }
+    
+    func test_문자열에서_percent스타일로반환되는지() throws {
+        XCTAssertEqual("1234567891234567".percent,"123,456,789,123,456,700%")
+    }
     
 }
