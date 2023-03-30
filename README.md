@@ -10,3 +10,6 @@
 
 
 KoreanCurrencyKit은 숫자금액 입력값에 대해 간편하게 한글금액 표기법으로 변환하여줍니다. 
+
+
+<img width="554" alt="code coverage" src="https://user-images.githubusercontent.com/98959780/228801793-c0d00fe3-a68b-44c7-80d0-1b474afb8214.png">
