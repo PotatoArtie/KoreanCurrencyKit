@@ -67,6 +67,8 @@ final class KoreanCurrencyKitTests: XCTestCase {
         XCTAssertEqual("12345670000".toKorean,"123억 4,567만원")
         XCTAssertEqual("123456780000".toKorean,"1,234억 5,678만원")
         XCTAssertEqual("1234567890000".toKorean,"1조 2,345억 6,789만원")
+        XCTAssertEqual("        ".toKorean,"")
+        
     }
     
     

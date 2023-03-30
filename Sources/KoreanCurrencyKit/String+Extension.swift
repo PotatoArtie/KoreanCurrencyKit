@@ -65,11 +65,11 @@ extension String {
     public var toKorean: String {
         let numberFormater = NumberFormatter()
         numberFormater.locale = Locale(identifier: "ko_KR")
-        let numberArray = self.components(separatedBy: numberFormater.decimalSeparator)
+        let numberArray = self.trimmingCharacters(in: .whitespacesAndNewlines).components(separatedBy: numberFormater.decimalSeparator)
         if numberArray.count > 1 {
             return numberArray[0].spelloutCurrency() + numberFormater.decimalSeparator + numberArray[1] + "원"
         }else{
-            return numberArray.joined().spelloutCurrency() + "원"
+            return numberArray.joined().spelloutCurrency().isEmpty ? ""  : numberArray.joined().spelloutCurrency() + "원"
         }
     }
     
