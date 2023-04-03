@@ -81,7 +81,9 @@
 
 ## Requirement
 
-iOS 13.0+/macOS 10.15+/tvOS 13.0+/watchOS 6.0+
+iOS 8.0+/macOS 10.10+/tvOS 9.0+/watchOS 2.0+
+[Apple developer](https://developer.apple.com/documentation/swift/array/reduce(_:_:))
+
 
 ## Installation 
 
