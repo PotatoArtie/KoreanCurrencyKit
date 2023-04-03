@@ -4,7 +4,7 @@ import PackageDescription
 let package = Package(
     name: "KoreanCurrencyKit",
     platforms: [
-        .iOS(.v13)
+        .iOS(.v9)
     ],
     products: [
         .library(
