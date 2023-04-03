@@ -81,8 +81,17 @@
 
 ## Requirement
 
-iOS 8.0+/macOS 10.10+/tvOS 9.0+/watchOS 2.0+
+iOS 11.0+/macOS 10.13+/tvOS 11.0+/watchOS 4.0+
 [Apple developer](https://developer.apple.com/documentation/swift/array/reduce(_:_:))
+
+iOS - 'v10' is deprecated : **iOS 11.0** is the oldest supported version
+<img width="501" alt="ios_m" src="https://user-images.githubusercontent.com/98959780/229390594-554a7537-9a98-4f15-9c1a-bbabcdd22352.png">
+macOS - 'v10_12' is deprecated : **macOS 10.13** is the oldest supported version
+<img width="496" alt="macos_m" src="https://user-images.githubusercontent.com/98959780/229390791-9ff53b8b-6375-468c-b285-b39dcba98975.png">
+tvOS - 'v10' is deprecated : **tvOS 11.0** is the oldest supported version
+<img width="496" alt="tvos_m" src="https://user-images.githubusercontent.com/98959780/229390795-a85416ef-0906-46db-b7b3-0efdbcb9ceb0.png">
+watchOS - 'v3' is deprecated : **watchOS 4.0** is the oldest supported version
+<img width="369" alt="watchos_m" src="https://user-images.githubusercontent.com/98959780/229390798-951e86c6-7793-4c27-bc73-38d017e6f320.png">
 
 
 ## Installation 
